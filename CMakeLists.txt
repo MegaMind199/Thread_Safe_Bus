@@ -8,6 +8,8 @@ add_executable(app
     Src/thread_safe_bus.c
     Inc/thread_safe_bus.h
     Inc/status.h
+    Src/test_thread_safe_bus.c
+    Inc/test_thread_safe_bus.h
 )
 
 target_include_directories(app PRIVATE Inc)

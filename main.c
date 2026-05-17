@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include "thread_safe_bus.h"
-
-void chemi_funqcia(tsb_memory_t* memory){
-
-
-}
+#include "test_thread_safe_bus.h"
 
 
 int main() {
     printf("Hello, World!\n");
-    int a = 5;
+    
+    int result = test_thread_safe_bus();
+    printf("Test result: %d\n", result);
+
     return 0;
 }
